@@ -17,7 +17,7 @@ foreach (getGenap(100) as $value) {
 
 function getGanjil(int $max): Iterator
 {
-    for ($i = i; $i <= $max; $i++) {
+    for ($i = 1; $i <= $max; $i++) {
         if ($i % 2 == 1) {
             yield $i;
         }
